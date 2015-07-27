@@ -18,7 +18,10 @@ to command line tools and applications.
 - __[Tonic Query Data Model](http://kitware.github.io/tonic-query-data-model/)__: Pattern based data fetching to another dimension.
 - __[Tonic Widgets](http://kitware.github.io/tonic-widgets/)__: Reusable set of graphical components.
 - __[Tonic Image Builder](http://kitware.github.io/tonic-image-builder/)__: Set of data processing algorithms meant to produce images.
-- __[Tonic Site Generatorr](http://kitware.github.io/tonic-site-generator/)__: Jekyll, Docco, Mdoc working together to build your Website.
+
+### Tools
+
+- __[Tonic Site Generator](http://kitware.github.io/tonic-site-generator/)__: Jekyll, Docco, Mdoc working together to build your Website.
 
 ### Applications
 
