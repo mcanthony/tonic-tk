@@ -45,20 +45,6 @@ cd docs/www
 git checkout gh-pages
 cd ../../..
 
-git clone https://github.com/Kitware/tonic-data-converter.git
-cd tonic-data-converter
-git submodule update --init
-cd docs/www
-git checkout gh-pages
-cd ../../..
-
-git clone https://github.com/Kitware/tonic-data-generator.git
-cd tonic-data-generator
-git submodule update --init
-cd docs/www
-git checkout gh-pages
-cd ../../..
-
 git clone https://github.com/Kitware/tonic-image-builder.git
 cd tonic-image-builder
 git submodule update --init
@@ -80,4 +66,12 @@ cd docs/www
 git checkout gh-pages
 cd ../../..
 
+git clone https://github.com/Kitware/tonic-data-converter.git
+cd tonic-data-converter
+git submodule update --init
+cd ..
 
+git clone https://github.com/Kitware/tonic-data-generator.git
+cd tonic-data-generator
+git submodule update --init
+cd ..
