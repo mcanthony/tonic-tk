@@ -27,6 +27,16 @@ to command line tools and applications.
 
 - __[ArcticViewer](http://kitware.github.io/in-situ-data-viewer/)__: Interactive data exploration viewer.
 
+### Development
+
+You can get the full suite by running the following command lines:
+
+```sh
+$ git clone https://github.com/Kitware/tonic.git
+$ cd tonic
+$ ./dev-setup.sh
+```
+
 ### Licensing
 
 **tonic** is licensed under [BSD Clause 3](LICENSE).
