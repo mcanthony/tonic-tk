@@ -6,6 +6,7 @@ mkdir tonic-utils
 git clone https://github.com/Kitware/tonic-widgets.git
 cd tonic-widgets
 git submodule update --init
+npm install
 cd docs/www
 git checkout gh-pages
 cd ../..
@@ -15,6 +16,8 @@ cd ../tonic-apps
 git clone https://github.com/Kitware/arctic-viewer.git
 cd arctic-viewer
 git submodule update --init
+npm install
+npm link
 cd docs/www
 git checkout gh-pages
 cd ../../..
@@ -31,6 +34,7 @@ cd tonic-handlers
 git clone https://github.com/Kitware/tonic-mouse-handler.git
 cd tonic-mouse-handler
 git submodule update --init
+npm install
 cd docs/www
 git checkout gh-pages
 cd ../../../..
@@ -41,6 +45,7 @@ cd tonic-utils
 git clone https://github.com/Kitware/tonic-data-manager.git
 cd tonic-data-manager
 git submodule update --init
+npm install
 cd docs/www
 git checkout gh-pages
 cd ../../..
@@ -48,6 +53,7 @@ cd ../../..
 git clone https://github.com/Kitware/tonic-image-builder.git
 cd tonic-image-builder
 git submodule update --init
+npm install
 cd docs/www
 git checkout gh-pages
 cd ../../..
@@ -55,6 +61,7 @@ cd ../../..
 git clone https://github.com/Kitware/tonic-query-data-model.git
 cd tonic-query-data-model
 git submodule update --init
+npm install
 cd docs/www
 git checkout gh-pages
 cd ../../..
@@ -62,6 +69,7 @@ cd ../../..
 git clone https://github.com/Kitware/tonic-site-generator.git
 cd tonic-site-generator
 git submodule update --init
+npm install
 cd docs/www
 git checkout gh-pages
 cd ../../..
@@ -74,4 +82,6 @@ cd ..
 git clone https://github.com/Kitware/tonic-data-generator.git
 cd tonic-data-generator
 git submodule update --init
+npm install
+npm link
 cd ..

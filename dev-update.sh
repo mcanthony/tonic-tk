@@ -2,6 +2,7 @@
 cd tonic-widgets
 echo $PWD
 git fetch origin
+npm update
 cd ..
 
 # Tonic apps
@@ -9,6 +10,7 @@ cd tonic-apps
 cd arctic-viewer
 echo $PWD
 git fetch origin
+npm update
 cd ..
 
 cd arctic-viewer-ios
@@ -20,12 +22,14 @@ cd ../..
 cd tonic-handlers/tonic-mouse-handler
 echo $PWD
 git fetch origin
+npm update
 cd ../..
 
 # Tonic utils
 cd tonic-utils/tonic-data-manager
 echo $PWD
 git fetch origin
+npm update
 cd ..
 
 cd tonic-data-converter
@@ -36,19 +40,23 @@ cd ..
 cd tonic-data-generator
 echo $PWD
 git fetch origin
+npm update
 cd ..
 
 cd tonic-image-builder
 echo $PWD
 git fetch origin
+npm update
 cd ..
 
 cd tonic-query-data-model
 echo $PWD
 git fetch origin
+npm update
 cd ..
 
 cd tonic-site-generator
 echo $PWD
 git fetch origin
+npm update
 cd ..
