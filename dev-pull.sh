@@ -52,3 +52,8 @@ cd tonic-site-generator
 echo $PWD
 git pull
 cd ..
+
+cd tonic-vtk
+echo $PWD
+git pull
+cd ..

@@ -60,3 +60,9 @@ echo $PWD
 git fetch origin
 npm update
 cd ..
+
+cd tonic-vtk
+echo $PWD
+git fetch origin
+npm update
+cd ..

@@ -85,3 +85,8 @@ git submodule update --init
 npm install
 npm link
 cd ..
+
+git clone https://github.com/Kitware/tonic-vtk.git
+cd tonic-vtk
+npm install
+cd ..

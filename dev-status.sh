@@ -83,3 +83,11 @@ git fetch origin
 git status | grep -vi master | grep -vi git | grep -vi clean
 echo "-------------------------------------------------------------------------"
 cd ..
+
+cd tonic-vtk
+echo "#" $PWD
+echo
+git fetch origin
+git status | grep -vi master | grep -vi git | grep -vi clean
+echo "-------------------------------------------------------------------------"
+cd ..
