@@ -1,3 +1,5 @@
+
+#
 mkdir tonic-apps
 mkdir tonic-handlers
 mkdir tonic-utils
@@ -76,12 +78,11 @@ cd ../../..
 
 git clone https://github.com/Kitware/tonic-data-converter.git
 cd tonic-data-converter
-git submodule update --init
+npm install
 cd ..
 
 git clone https://github.com/Kitware/tonic-data-generator.git
 cd tonic-data-generator
-git submodule update --init
 npm install
 npm link
 cd ..
