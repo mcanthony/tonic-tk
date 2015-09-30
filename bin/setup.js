@@ -69,3 +69,7 @@ projectList.forEach(function(project) {
 });
 
 console.log('\n=> Tonic suite is ready for your development.\n');
+
+ls(binPaths).forEach(function(file) {
+    ln('-sf', file, path.join(nodeModulePath, 'bin', path.basename(file)));
+});

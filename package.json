@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Container project for the Tonic-Suite",
   "scripts": {
-    "preinstall": "mkdir -p .npm-packages/lib/node_modules && rm -rf node_modules && ln -s .npm-packages/lib/node_modules . && echo PREFIX = $PWD/.npm-packages > .npmrc && npm i -g coffee-script@1.10.0 cover@0.2.9 marked@0.3.5",
-    "postinstall": "rm -rf .npm-packages/bin/* && cp node_modules/.bin/* .npm-packages/bin/ && npm run setup",
+    "preinstall": "mkdir -p .npm-packages/lib/node_modules && mkdir -p .npm-packages/bin && rm -rf node_modules && ln -s .npm-packages/lib/node_modules . && echo PREFIX = $PWD/.npm-packages > .npmrc && npm i -g coffee-script@1.10.0 cover@0.2.9 marked@0.3.5",
+    "postinstall": "npm run setup",
     "clean": "rm -rf tonic-* && rm -rf log-*",
     "setup": "node ./bin/setup.js",
     "pull": "node ./bin/pull.js",
