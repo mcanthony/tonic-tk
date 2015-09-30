@@ -12,7 +12,8 @@ var fs = require('fs'),
     path = require('path'),
     projectList = require('./tonic-suite.json'),
     tonicPath = path.join(__dirname, '..'),
-    nodeModulePath = path.join(tonicPath, '.npm-packages');
+    nodeModulePath = path.join(tonicPath, '.npm-packages'),
+    binPaths = path.join(tonicPath, 'node_modules', '.bin', '*');
 
 // Add npmrc for tonic (preinstall script is doing it)
 // ('PREFIX = ' + nodeModulePath).to(path.join(tonicPath, '.npmrc'));
@@ -51,12 +52,20 @@ projectList.forEach(function(project) {
                 submodule.output.to(path.join(tonicPath, 'log-' + project.name + '-gh-pages-error.txt'));
             }
         }
-        // Local .npmrc to use the tonic one as global
-        console.log('   - tonic/node_modules as global npm repo');
-        ('PREFIX = ' + nodeModulePath).to(path.join(repoPath, '.npmrc'));
-    } else {
-        console.log('   - skip');
+
     }
+
+    // Local .npmrc to use the tonic one as global
+    console.log('   - tonic/node_modules as global npm repo');
+    ('PREFIX = ' + nodeModulePath).to(path.join(repoPath, '.npmrc'));
+
+    // Add tonic bin
+    console.log('   - link tonic/node_modules/.bin');
+    var execPath = path.join(repoPath, 'node_modules', '.bin');
+    mkdir('-p', execPath);
+    ls(binPaths).forEach(function(file) {
+        ln('-sf', file, path.join(execPath, path.basename(file)));
+    });
 });
 
 console.log('\n=> Tonic suite is ready for your development.\n');
