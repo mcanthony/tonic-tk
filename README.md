@@ -35,7 +35,31 @@ You can get the full suite by running the following command lines:
 ```sh
 $ git clone https://github.com/Kitware/tonic.git
 $ cd tonic
-$ ./dev-setup.sh
+$ npm install
+```
+
+To fetch from all repositories
+
+```sh
+$ npm run fetch
+```
+
+To check the status of all repositories
+
+```sh
+$ npm run status
+```
+
+To pull in all repositories
+
+```sh
+$ npm run pull
+```
+
+To clean and remove all the repositories
+
+```sh
+$ npm run clean
 ```
 
 ### Licensing

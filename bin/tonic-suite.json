@@ -1,0 +1,47 @@
+[
+    {
+        "name": "arctic-viewer",
+        "path": "tonic-apps",
+        "submodule": true
+    },{
+        "name": "arctic-viewer-ios",
+        "path": "tonic-apps",
+        "submodule": true
+    },{
+        "name": "tonic-widgets",
+        "path": "",
+        "submodule": true
+    },{
+        "name": "tonic-mouse-handler",
+        "path": "tonic-handlers",
+        "submodule": true
+    },{
+        "name": "tonic-data-manager",
+        "path": "tonic-utils",
+        "submodule": true
+    },{
+        "name": "tonic-image-builder",
+        "path": "tonic-utils",
+        "submodule": true
+    },{
+        "name": "tonic-query-data-model",
+        "path": "tonic-utils",
+        "submodule": true
+    },{
+        "name": "tonic-data-converter",
+        "path": "tonic-data",
+        "submodule": false
+    },{
+        "name": "tonic-data-generator",
+        "path": "tonic-data",
+        "submodule": false
+    },{
+        "name": "tonic-site-generator",
+        "path": "tonic-tools",
+        "submodule": true
+    },{
+        "name": "tonic-vtk",
+        "path": "tonic-utils",
+        "submodule": false
+    }
+]

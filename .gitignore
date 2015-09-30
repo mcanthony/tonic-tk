@@ -1,4 +1,8 @@
+.npmrc
+node_modules
 tonic-apps
+tonic-data
 tonic-handlers
+tonic-tools
 tonic-utils
 tonic-widgets
