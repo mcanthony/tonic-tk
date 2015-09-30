@@ -1,4 +1,5 @@
 .npmrc
+.npm-packages
 node_modules
 tonic-apps
 tonic-data

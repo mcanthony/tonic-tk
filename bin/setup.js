@@ -12,7 +12,7 @@ var fs = require('fs'),
     path = require('path'),
     projectList = require('./tonic-suite.json'),
     tonicPath = path.join(__dirname, '..'),
-    nodeModulePath = path.join(tonicPath, 'node_modules');
+    nodeModulePath = path.join(tonicPath, '.npm-packages');
 
 // Add npmrc for tonic (preinstall script is doing it)
 // ('PREFIX = ' + nodeModulePath).to(path.join(tonicPath, '.npmrc'));
