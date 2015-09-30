@@ -14,8 +14,8 @@ var fs = require('fs'),
     tonicPath = path.join(__dirname, '..'),
     nodeModulePath = path.join(tonicPath, 'node_modules');
 
-// Add npmrc for tonic
-('PREFIX = ' + nodeModulePath).to(path.join(tonicPath, '.npmrc'));
+// Add npmrc for tonic (preinstall script is doing it)
+// ('PREFIX = ' + nodeModulePath).to(path.join(tonicPath, '.npmrc'));
 
 // Create and initialize projects
 projectList.forEach(function(project) {
