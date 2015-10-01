@@ -28,12 +28,8 @@
         "path": "tonic-utils",
         "submodule": true
     },{
-        "name": "tonic-data-converter",
-        "path": "tonic-data",
-        "submodule": false
-    },{
         "name": "tonic-data-generator",
-        "path": "tonic-data",
+        "path": "tonic-tools",
         "submodule": false
     },{
         "name": "tonic-site-generator",

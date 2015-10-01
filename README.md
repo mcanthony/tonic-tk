@@ -23,10 +23,12 @@ to command line tools and applications.
 ### Tools
 
 - __[Tonic Site Generator](http://kitware.github.io/tonic-site-generator/)__: Jekyll, Docco, Mdoc working together to build your Website.
+- __[Tonic Data Generator](http://www.github.com/kitware/tonic-data-generator/)__: Python module that can drive VTK or ParaView to generate ArcticViewer datasets.
 
 ### Applications
 
-- __[ArcticViewer](http://kitware.github.io/in-situ-data-viewer/)__: Interactive data exploration viewer.
+- __[ArcticViewer](http://kitware.github.io/arctic-viewer/)__: Interactive data exploration viewer.
+- __[ArcticViewer-iOS](http://kitware.github.io/arctic-viewer-ios/)__: ArcticViewer application packaged for the Apple Store.
 
 ### Development
 
