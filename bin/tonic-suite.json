@@ -9,7 +9,7 @@
         "submodule": true
     },{
         "name": "tonic-widgets",
-        "path": "",
+        "path": "tonic-components",
         "submodule": true
     },{
         "name": "tonic-mouse-handler",

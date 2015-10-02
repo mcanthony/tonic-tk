@@ -2,8 +2,5 @@
 .npm-packages
 node_modules
 tonic-apps
-tonic-data
-tonic-handlers
+tonic-components
 tonic-tools
-tonic-utils
-tonic-widgets
