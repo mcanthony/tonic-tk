@@ -1,11 +1,11 @@
 [
     {
         "name": "arctic-viewer",
-        "path": "tonic-apps",
+        "path": "tonic-applications",
         "submodule": true
     },{
         "name": "arctic-viewer-ios",
-        "path": "tonic-apps",
+        "path": "tonic-applications",
         "submodule": true
     },{
         "name": "tonic-widgets",

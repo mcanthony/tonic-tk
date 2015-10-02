@@ -1,6 +1,6 @@
 .npmrc
 .npm-packages
 node_modules
-tonic-apps
+tonic-applications
 tonic-components
 tonic-tools
