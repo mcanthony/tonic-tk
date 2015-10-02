@@ -13,19 +13,19 @@
         "submodule": true
     },{
         "name": "tonic-mouse-handler",
-        "path": "tonic-handlers",
+        "path": "tonic-components",
         "submodule": true
     },{
         "name": "tonic-data-manager",
-        "path": "tonic-utils",
+        "path": "tonic-components",
         "submodule": true
     },{
         "name": "tonic-image-builder",
-        "path": "tonic-utils",
+        "path": "tonic-components",
         "submodule": true
     },{
         "name": "tonic-query-data-model",
-        "path": "tonic-utils",
+        "path": "tonic-components",
         "submodule": true
     },{
         "name": "tonic-data-generator",
@@ -37,7 +37,7 @@
         "submodule": true
     },{
         "name": "tonic-vtk",
-        "path": "tonic-utils",
+        "path": "tonic-components",
         "submodule": false
     }
 ]
